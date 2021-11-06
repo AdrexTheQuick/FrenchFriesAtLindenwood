@@ -1,0 +1,38 @@
+
+
+
+.white-text {
+    color:white;
+}
+
+.fries-background{
+
+    background:
+    /* top, transparent black, faked with gradient */ 
+    linear-gradient(
+      rgba(0, 0, 0, 0.7), 
+      rgba(0, 0, 0, 0.7)
+    ),
+    url(resources/FrenchFries.jpg);  
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    filter:grayscale(80%)
+}
+.dark-header {
+    color: rgb(255, 255, 255);
+    background-color: rgb(22, 16, 9);
+    
+}
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: pink;
+}
+
+body {
+    background-color: rgb(196, 184, 159);
+}
